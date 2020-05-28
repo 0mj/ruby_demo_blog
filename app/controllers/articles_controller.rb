@@ -20,6 +20,7 @@ class ArticlesController < ApplicationController
     end
 
     def create
+    #    render plain: params[:article].inspect
         @article = Article.new(article_params)
         
         if @article.save
