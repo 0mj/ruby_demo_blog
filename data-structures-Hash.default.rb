@@ -10,4 +10,4 @@ my_hash = Hash.new("Trady Blix")
 
 their_h = Hash.new("nothing here")
  
-puts their_h
+puts their_h[1] 		# => "nothing here"
