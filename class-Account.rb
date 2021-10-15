@@ -15,6 +15,7 @@ class Account
   end
   
   def withdraw(pin_number, amount)
+    @pin = self::pin
     if pin_number == @pin
       @balance -= amount
       puts "Withdrew #{amount}. New balance: $#{@balance}"
@@ -24,7 +25,7 @@ class Account
   end
 
   def deposit(pin_number, amount)
-    if pin_number == @pin
+    if pin_number == self::pin
       @balance += amount
       puts "Deposit #{amount}. New balance: $#{@balance}"
     else
