@@ -16,3 +16,4 @@ puts :name.object_id
 puts :name.object_id
 puts 'name'.intern.object_id
 puts 'name'.intern.object_id
+puts 1.day.ago #rails helper..
