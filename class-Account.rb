@@ -7,7 +7,7 @@ class Account
   end
   public
   def display_balance(pin_number)
-    if pin_number == @pin
+    if pin_number == @s
      puts "Balance: $#{@balance}."
     else
       puts pin_error
@@ -22,8 +22,8 @@ class Account
     else
       puts pin_error
     end
-  end
-
+  sdsdfsdsdfsdfsdf
+dsfgdfg
   def deposit(pin_number, amount)
     if pin_number == self::pin
       @balance += amount

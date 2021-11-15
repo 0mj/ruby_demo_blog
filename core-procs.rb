@@ -12,10 +12,10 @@ otherwise take a block, and we don’t have to
 rewrite the block over and over!
 =end
 
-[1, 2, 3].collect!(&cube)
-# ==> [1, 8, 27]
-[4, 5, 6].map!(&cube)
-# ==> [64, 125, 216]
+
+[1, 2, 3].collect!(&cube) # ==> [1, 8, 27]
+
+[4, 5, 6].map!(&cube) # ==> [64, 125, 216]
 
 =begin
 (The .collect! and .map! methods do the exact same thing.)
@@ -41,3 +41,5 @@ round_down = Proc.new { |x| x.floor }
 # Write your code above this line!
 ints = floats.collect(&round_down)
 print ints
+
+new_syntax = floats
