@@ -21,3 +21,4 @@ age = 26
 "I am #{age} years old." # ==> I am 26 years old.
 
 # All you need to do is place the variable name inside #{} within a string!
+# ruby does not do string  interpolation on strings within single quotes
