@@ -15,5 +15,5 @@ Customer = Struct.new(:name, :address) do
 end
 
 dave = Customer.new("Dave", "123 Main")
-dave.name     #=> "Dave"
-dave.greeting #=> "Hello Dave!"
+print dave.name   + "\n"  #=> "Dave"
+print dave.greeting + "\n"#=> "Hello Dave!"

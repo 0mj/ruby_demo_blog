@@ -3,3 +3,5 @@
 
 
 "L".upto("P") {  |letter| puts letter }
+
+puts "list_of_bonus_activities_during_rule_range".upcase
