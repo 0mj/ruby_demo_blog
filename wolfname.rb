@@ -1,5 +1,5 @@
 #  percent strings 
-# https://ruby-doc.org/core-2.0.0/doc/syntax/literals_rdoc.html#label-Percent+Strings
+# https://ruby-doc.org/core-3.0.0/doc/syntax/literals_rdoc.html#label-Percent+Strings
 
 wolfname = %w[
     'Inigo
