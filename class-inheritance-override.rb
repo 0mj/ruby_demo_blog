@@ -1,16 +1,26 @@
-class Creature
+class Dog
   def initialize(name)
     @name = name
   end
   
-  def fight
-    return "Punch to the chops!"
+  def dogthing
+    return "barks and barks"
   end
 end
 
 # Add your code below!
-class Dragon < Creature
-  def fight 
-    return "Breathes fire!"
+class Pup < Dog
+  def dogthing 
+    return "Rolls over and goes back to sleep"
   end
 end
+
+
+dog = Dog.new("Steve")
+print dog.dogthing + "\n"
+
+pup = Pup.new("Walter")
+print pup.dogthing
+
+
+
