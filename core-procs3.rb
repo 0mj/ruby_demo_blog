@@ -3,10 +3,8 @@
 
 Symbols, Meet Procs
 
-Now that you’re learning some of the more complex parts of the Ruby language, 
-you can combine them to work some truly arcane magicks. For instance, remember
-when we told you that you could pass a Ruby method name around with a symbol?
-Well, you can also convert symbols to procs using that handy little &.
+you could pass a Ruby method name around with a symbol?
+you can convert symbols to procs using that handy little &.
 
 Check it out:
 
