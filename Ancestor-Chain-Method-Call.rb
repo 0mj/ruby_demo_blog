@@ -11,9 +11,11 @@ finds the method.
 
 class Tiger
   def to_s
-    "roar"
+    p "roar"
   end
 end
+
+
 
 =begin
 irb> Tiger.new.to_s
